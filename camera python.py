@@ -27,11 +27,6 @@ while True:
     if k%256 == 27:
         print('escape hit, closing the app')
         break
-        cv2.imwrite(img_name, frame)
-        print('screenshot taken')
-        # the number of images automaticallly increases by 1
-        img_counter += 1
-
 # release the camera
 cam.release()
 
